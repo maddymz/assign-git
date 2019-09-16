@@ -8,6 +8,7 @@ What does fast-forward in Git mean?
 
 Merging the changes from a branch X, which is ahead in commits form another branch Y is known as fast forward. It is known as 
 fast forward as Git recognizes that branch X is ahead of branch Y to it moves the pointer of branch y to match the merged commits.
+Usually this scenario happens when we need to merge a branch to teh master branch.
 
 Why should you have different branches?
 
