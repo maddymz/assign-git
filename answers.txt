@@ -1,7 +1,23 @@
 What is a gitignore file and what should it include for a Java project?
 
+In gitignore file we can add the extentions of any file which we don't want to include in our code repository. 
+If an extention is mentioned in gitignore it will not be added to the github code repository. It should ignore any Java 
+related files and include nothing for a Java project in teh source code repository. 
+
 What does fast-forward in Git mean?
+
+Merging the changes from a different branch to teh master brnach is known as fast forward.
 
 Why should you have different branches?
 
+There can be situation when a team is working on a project and each team member is working on a different feature, in that case 
+every team member should create a branch and work on their changes and then check by merging master branch changes to their 
+branch. If everything works they can add the finished feature into master branch. This branching ensures that there will be 
+a working code with 0 errors and 0 warnings available to demonstrate and multiple people can work on the same project.
+
 In a project how many remote Git repositories do you usually have?
+
+Usually it is a good practice to have all the source code in a sigle repository which makes it easy to manage. This approach is called 
+"mono-repo"approach. There can be some cases where due to nature of the organization and project, multiple repositories can be mainatined. 
+This approach is known as "multi-repo".It helps in teh cases where access to a specific module of code should be given to say a freelancer
+or a contractor by a company, but in large code bases number of repositories grow and are hard to manage.
