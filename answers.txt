@@ -2,7 +2,7 @@ What is a gitignore file and what should it include for a Java project?
 
 In gitignore file we can add the extensions of any file which we don't want to include in our code repository. 
 If an extension is mentioned in gitignore it will not be added to the GitHub code repository. It should ignore any Java 
-related files and include nothing for a Java project in the source code repository. 
+related files such as java log files, class files, J2ME, BlueJ, package files and virtual machine crach files and include nothing for a Java project in the source code repository. 
 
 What does fast-forward in Git mean?
 
